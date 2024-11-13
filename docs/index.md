@@ -1,1 +1,0 @@
-# Wellcome to Blueprint docs
