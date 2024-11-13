@@ -1,0 +1,9 @@
+site_name: Blueprint Docs
+
+nav:
+  - Home: index.md
+
+theme:
+  name: mkdocs-material
+  palette:
+    primary: deep orange
