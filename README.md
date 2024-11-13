@@ -9,7 +9,7 @@ This blueprint guides you to ...
 
 ## Pre-requisites
 
-- **System requirements**: 
+- **System requirements**:
   - OS: Windows, macOS, or Linux
   - Python 3.10 or higher
   - Minimum RAM: 4 GB
