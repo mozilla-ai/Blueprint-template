@@ -21,8 +21,8 @@ This blueprint guides you to ...
 - **System requirements**:
   - OS: Windows, macOS, or Linux
   - Python 3.10 or higher
-  - Minimum RAM: 
-  - Disk space: 
+  - Minimum RAM:
+  - Disk space:
 
 - **Dependencies**:
   - Dependencies listed in `pyproject.toml`

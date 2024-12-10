@@ -1,4 +1,4 @@
-Get started with this Blueprint using one of the options below: 
+Get started with this Blueprint using one of the options below:
 
 ---
 
@@ -7,4 +7,3 @@ Get started with this Blueprint using one of the options below:
 
 
 ###  **Option 2:**
-
