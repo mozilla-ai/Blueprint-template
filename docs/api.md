@@ -1,3 +1,2 @@
 # API Reference
 
-::: blueprint.hello
