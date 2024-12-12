@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: mzdotai/document-to-podcast
+          images: mzdotai/blueprint
           flavor: |
             latest=auto
 
