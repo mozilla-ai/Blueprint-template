@@ -1,4 +1,4 @@
-site_name: Blueprints Docs
+site_name: Guidance Docs
 repo_url: https://github.com/mozilla-ai/blueprint-template
 repo_name: blueprint-template
 
@@ -11,22 +11,22 @@ nav:
   - Future Features & Contributions: future-features-contributions.md
 
 theme:
-  icon:
-    repo: fontawesome/brands/github
   name: material
   palette:
     - scheme: default
-      primary: "#005F6F"
+      primary: black
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
     - scheme: slate
-      primary: "#005F6F"
+      primary: grey
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+  logo: images/Blueprint-logo-white.png
+  favicon: images/Blueprint-logo-black-flavicon.png
   extra_css:
-    - assets/custom.css
+    - css/custom.css
 
 markdown_extensions:
   - pymdownx.highlight:
