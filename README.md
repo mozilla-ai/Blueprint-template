@@ -9,6 +9,7 @@
   </picture>
 </p>
 
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -24,6 +25,8 @@
 | [Contributing](CONTRIBUTING.md)
 
 </div>
+
+# Blueprint title
 
 This blueprint guides you to ...
 
