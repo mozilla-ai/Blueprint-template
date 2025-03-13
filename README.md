@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[![Python version](https://img.shields.io/badge/python-3.10+-important)](https://www.python.org/downloads/)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![](https://dcbadge.limes.pink/api/server/YuMNeuKStr?style=flat)](https://discord.gg/YuMNeuKStr)
 [![Docs](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/docs.yaml/badge.svg)](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/docs.yaml/)
@@ -28,15 +28,7 @@
 
 This blueprint guides you to ...
 
-📘 To explore this project further and discover other Blueprints, visit the [**Blueprints Hub**](https://developer-hub.mozilla.ai/).
 
-👉 📖 For more detailed guidance on using this project, please visit our [**Docs here**](https://mozilla-ai.github.io/Blueprint-template/)
-
-### Built with
-- Python 3.10+
-- Open-Source Tool 1
-- Open-Source Tool 2
-- ...
 
 ## Quick-start
 
