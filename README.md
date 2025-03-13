@@ -15,8 +15,8 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![](https://dcbadge.limes.pink/api/server/YuMNeuKStr?style=flat)](https://discord.gg/YuMNeuKStr)
 [![Docs](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/docs.yaml/badge.svg)](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/docs.yaml/)
-[![Tests](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/tests.yaml/badge.svg)](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/tests.yaml/)
-[![Ruff](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/lint.yaml/badge.svg?label=Ruff)](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/lint.yaml/)
+[![Tests](https://github.com/mozilla-ai/blueprint-template/actions/workflows/tests.yaml/badge.svg)](https://github.com/mozilla-ai/blueprint-template/actions/workflows/tests.yaml/)
+[![Ruff](https://github.com/mozilla-ai/blueprint-template/actions/workflows/lint.yaml/badge.svg?label=Ruff)](https://github.com/mozilla-ai/document-to-podcast/actions/workflows/lint.yaml/)
 
 [Blueprints Hub](https://developer-hub.mozilla.ai/)
 | [Documentation](https://mozilla-ai.github.io/Blueprint-template/)
