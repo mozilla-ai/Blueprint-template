@@ -21,7 +21,7 @@
 
 [Blueprints Hub](https://developer-hub.mozilla.ai/)
 | [Documentation](https://mozilla-ai.github.io/Blueprint-template/)
-| [Getting Started](https://mozilla-ai.github.io/Blueprint-template/Getting-started)
+| [Getting Started](https://mozilla-ai.github.io/Blueprint-template/getting-started)
 | [Contributing](CONTRIBUTING.md)
 
 </div>
