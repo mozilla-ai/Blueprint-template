@@ -1,0 +1,52 @@
+{
+  "id": 2632852,
+  "name": "default",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "mozilla-ai/blueprint-template",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~DEFAULT_BRANCH"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "pull_request",
+      "parameters": {
+        "required_approving_review_count": 1,
+        "dismiss_stale_reviews_on_push": false,
+        "require_code_owner_review": false,
+        "require_last_push_approval": false,
+        "required_review_thread_resolution": false,
+        "automatic_copilot_code_review_enabled": false,
+        "allowed_merge_methods": [
+          "squash"
+        ]
+      }
+    }
+  ],
+  "bypass_actors": [
+    {
+      "actor_id": null,
+      "actor_type": "OrganizationAdmin",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 5,
+      "actor_type": "RepositoryRole",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 11738792,
+      "actor_type": "Team",
+      "bypass_mode": "always"
+    }
+  ]
+}
