@@ -24,6 +24,10 @@
 | [Getting Started](https://mozilla-ai.github.io/Blueprint-template/getting-started)
 | [Contributing](CONTRIBUTING.md)
 
+_Are you planning on building your own Blueprint?_
+
+_Check out our [Blueprint Template Guide](docs/template_guide.md) to learn how to get the most out of this repository._
+
 </div>
 
 # Blueprint title
