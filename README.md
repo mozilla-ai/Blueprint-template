@@ -1,11 +1,11 @@
 <p align="center">
   <picture>
     <!-- When the user prefers dark mode, show the white logo -->
-    <source media="(prefers-color-scheme: dark)" srcset="./images/Blueprint-logo-white.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/images/Blueprint-logo-white.png">
     <!-- When the user prefers light mode, show the black logo -->
-    <source media="(prefers-color-scheme: light)" srcset="./images/Blueprint-logo-black.png">
+    <source media="(prefers-color-scheme: light)" srcset="./docs/images/Blueprint-logo-black.png">
     <!-- Fallback: default to the black logo -->
-    <img src="./images/Blueprint-logo-black.png" width="35%" alt="Project logo"/>
+    <img src="./docs/images/Blueprint-logo-black.png" width="35%" alt="Project logo"/>
   </picture>
 </p>
 

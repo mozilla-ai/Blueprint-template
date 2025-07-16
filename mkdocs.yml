@@ -23,8 +23,8 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-  logo: images/Blueprint-logo-white.png
-  favicon: images/Blueprint-logo-black-flavicon.png
+  logo: docs/images/Blueprint-logo-white.png
+  favicon: docs/images/Blueprint-logo-black-flavicon.png
   extra_css:
     - assets/custom.css
   features:
