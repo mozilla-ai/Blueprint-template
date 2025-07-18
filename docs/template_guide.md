@@ -26,34 +26,34 @@ blueprint-template/
 
 ### 1. Replace any templated mentions with your Blueprint's project name
 
+You will find mentions of `blueprint-template` in multiple files throughout the repository. You should replace these with your Blueprint's project name.
 
-You will find mentions of `Blueprint title` or similar in the following files:
-- `.github` directory
-- `demo/app.py`
-- `demo/Dockerfile`
-- `docs/api.md`
-- `docs/customization.md`
-- `docs/future-features-contributions.md`
-- `docs/getting-started.md`
-- `docs/index.md`
-- `docs/step-by-step-guide.md`
-- `pyroject.toml`
-- `README.md`
+The easiest way to do this is to use a text editor / IDE (VS Code, PyCharm, etc.) that supports find-and-replace across files and look for `blueprint-template` and replace it with your desired Blueprint name.
 
-
-### 2. Update all the hyperlinks to point to your repository.
-
-Search for any hyperlinks that point to the template repository and update them to point to your new Blueprint repository. This includes links in the documentation files, README, and any other markdown files.
-
-### 3. Update the `pyproject.toml` file
+### 2. Update the `pyproject.toml` file
 
 Make sure that the `pyproject.toml` file reflects the correct project name, version, description, and author information. Most importantly, you should define the dependencies your Blueprint requires in the `[tool.poetry.dependencies]` section.
+
+### 3. Remove any files or directories that are not relevant to your Blueprint
+
+To keep your Blueprint repository clean and focused, you can remove any files or directories that are not relevant to your project. For example, if you don't plan to use GitHub Codespaces, you can remove the `.devcontainer` directory. Similarly, if you are not going to use GitHub workflows, you can remove the `.github/workflows` directory to remove the automated checks.
+
+### 4. Update the demo application and all the related files
+
+By default, there is a placeholder demo application using streamlit in the `demo` directory. If you are not comfortable with streamlit, you can replace it with a demo application using any framework you prefer (e.g., Gradio, Marimo, etc.). Make sure to update the `demo/Dockerfile`, `demo/run.sh` and `.github/setup.sh` (if you want to have support for GitHub Codespaces), accordingly if you are using a different framework.
+
+### 5. Update the documentation files
+
+Make sure to go through each markdown file in the `docs` directory and update the content to reflect your Blueprint's functionality and features. Ensure that the `api.md` is edited to point to the correct modules and functions in your `src` directory. You can use the `mkdocs.yml` file to configure how the documentation is built and displayed.
 
 ## Explaining the Directory Structure
 
 ### `.devcontainer`
 
 This .json includes the configuration for a GitHub codespaces container. This can be useful if your demo has low hardware requirements and can be run in an isolated container environment. It allows users to quickly set up a development environment with all necessary dependencies pre-installed and run the demo without needing to install anything locally.
+
+> [!TIP]
+> The `devcontainer.json` file points to the .github/setup.sh script that installs the required dependencies of the Blueprint and sets up the environment. Make sure to update this script accordingly.
 
 ### `.github`
 
