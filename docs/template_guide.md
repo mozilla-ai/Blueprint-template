@@ -47,7 +47,7 @@ Search for any hyperlinks that point to the template repository and update them 
 
 ### 3. Update the `pyproject.toml` file
 
-Make sure that the `pyproject.toml` file reflects the correct project name, version, description, and author information. Most importantly, you should define the dependencies your Blueprint requires in the `[tool.poetry.dependencies]` section. 
+Make sure that the `pyproject.toml` file reflects the correct project name, version, description, and author information. Most importantly, you should define the dependencies your Blueprint requires in the `[tool.poetry.dependencies]` section.
 
 ## Explaining the Directory Structure
 
@@ -57,7 +57,7 @@ This .json includes the configuration for a GitHub codespaces container. This ca
 
 ### `.github`
 
-This directory contains GitHub workflows for CI/CD, issue templates, and pull request templates. 
+This directory contains GitHub workflows for CI/CD, issue templates, and pull request templates.
 
 #### CI/CD Workflows
 
