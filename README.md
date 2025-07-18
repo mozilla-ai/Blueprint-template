@@ -54,6 +54,16 @@ This blueprint guides you to ...
   - Dependencies listed in `pyproject.toml`
 
 
+## Developing
+
+Blueprints aim to ensure high-quality code standards and consistency across all submissions.
+To achieve this, we use [pre-commit](https://pre-commit.com/) to automatically format code and run checks. If you are planning on participating in development work, please run:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
 ## Troubleshooting
 
 
