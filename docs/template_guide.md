@@ -2,6 +2,14 @@
 
 _This documentation is intended for developers who want to create a new Blueprint using this template._
 
+## Guidelines
+
+![Guidelines](images/Blueprint-guidelines.png)
+
+> [!NOTE]
+> If the guidelines above do not align with your project, feel free to modify them to suit your needs.
+> Keep in mind however that the aim of Blueprints is to provide strong foundations for reusable open-source AI workflows, meant to be shared by the community.
+
 ## Directory Overview
 
 ```plaintext
