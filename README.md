@@ -1,11 +1,11 @@
 <p align="center">
   <picture>
     <!-- When the user prefers dark mode, show the white logo -->
-    <source media="(prefers-color-scheme: dark)" srcset="./images/Blueprint-logo-white.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/images/Blueprint-logo-white.png">
     <!-- When the user prefers light mode, show the black logo -->
-    <source media="(prefers-color-scheme: light)" srcset="./images/Blueprint-logo-black.png">
+    <source media="(prefers-color-scheme: light)" srcset="./docs/images/Blueprint-logo-black.png">
     <!-- Fallback: default to the black logo -->
-    <img src="./images/Blueprint-logo-black.png" width="35%" alt="Project logo"/>
+    <img src="./docs/images/Blueprint-logo-black.png" width="35%" alt="Project logo"/>
   </picture>
 </p>
 
@@ -23,6 +23,10 @@
 | [Documentation](https://mozilla-ai.github.io/Blueprint-template/)
 | [Getting Started](https://mozilla-ai.github.io/Blueprint-template/getting-started)
 | [Contributing](CONTRIBUTING.md)
+
+_Are you planning on building your own Blueprint?_
+
+_Check out our [Blueprint Template Guide](docs/template_guide.md) to learn how to get the most out of this repository._
 
 </div>
 
@@ -49,6 +53,16 @@ This blueprint guides you to ...
 - **Dependencies**:
   - Dependencies listed in `pyproject.toml`
 
+
+## Developing
+
+Blueprints aim to ensure high-quality code standards and consistency across all submissions.
+To achieve this, we use [pre-commit](https://pre-commit.com/) to automatically format code and run checks. If you are planning on participating in development work, please run:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
 
 ## Troubleshooting
 

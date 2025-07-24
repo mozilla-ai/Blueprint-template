@@ -35,11 +35,12 @@ We welcome all kinds of contributions, from improving customization, to extendin
 ### **Guidelines for Contributions**
 
 **Coding Standards**
+- Install [pre-commit](https://pre-commit.com/) to automatically format code and run checks.
 - Follow PEP 8 for Python formatting.
 - Use clear variable and function names and add comments to improve readability.
 
 **Testing**
-- Test changes locally and in GitHub Codespaces to ensure functionality.
+- Write unit and integration tests to ensure your changes work as expected.
 
 **Documentation**
 - Update docs for changes to functionality and maintain consistency with existing docs.

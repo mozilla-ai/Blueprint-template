@@ -20,7 +20,7 @@ stopRunningProcess() {
 
 trap stopRunningProcess EXIT TERM
 
-streamlit run ${HOME}/document-to-podcast/demo/app.py &
+streamlit run ${HOME}/blueprint-template/demo/app.py &
 APP_ID=${!}
 
 wait ${APP_ID}
