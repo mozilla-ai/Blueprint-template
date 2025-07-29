@@ -29,10 +29,14 @@ These docs are your companion to mastering this Blueprint.
 #### _Help shape the future of Blueprints:_
 - **[Future Features & Contributions](future-features-contributions.md):** Learn about exciting upcoming features and how to contribute to the project.
 
+### 🔨 **Building your own Blueprint?**
+#### _Read our guidelines for creating your own Blueprint project:_
+- **[Blueprint-template Guide](template_guide.md):** Understand how to use the Blueprint-template repository to build your own Blueprint.
+
 
 Have more questions? Reach out to us on Discord and we'll see how we can help:
 
-<a target="_blank" href="https://discord.gg/gazz5XDU"><img src="https://dcbadge.limes.pink/api/server/gazz5XDU" alt="" /></a>
+[![](https://dcbadge.limes.pink/api/server/YuMNeuKStr?style=flat)](https://discord.gg/YuMNeuKStr) <br>
 
 ---
 
