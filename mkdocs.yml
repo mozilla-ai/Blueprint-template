@@ -9,6 +9,7 @@ nav:
   - Customization Guide: customization.md
   - API Reference: api.md
   - Future Features & Contributions: future-features-contributions.md
+  - Blueprint-template Guide: template_guide.md
 
 theme:
   name: material
