@@ -44,3 +44,9 @@ We welcome all kinds of contributions, from improving customization, to extendin
 
 **Documentation**
 - Update docs for changes to functionality and maintain consistency with existing docs.
+
+**AI-Generated Code**
+
+- We welcome AI-assisted contributions when used thoughtfully
+- Be aware that AI sometimes generates incorrect code, hallucinates APIs, or uses deprecated methods
+- Take extra care to verify the code works correctly and handles edge cases
