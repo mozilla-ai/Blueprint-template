@@ -50,5 +50,5 @@ We welcome all kinds of contributions, from improving customization, to extendin
 - We welcome AI-assisted contributions when used thoughtfully
 - Clearly disclose if any part of your submission was generated or assisted by AI tools.
 - Be aware that AI sometimes generates incorrect code, hallucinates APIs, or uses deprecated methods
-- Demonstrate thorough understanding of the code you submit.
+- Demonstrate a thorough understanding of the code you submit.
 - Carefully review, test, and debug all code before submitting. Do not blindly copy-paste output from AI tools.
